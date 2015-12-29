@@ -6,8 +6,8 @@ Simple react binding which exposes high order component for connecting ducks red
 
 When the view is wrapped two special properties are provided:
 
-1) `ducksState` - this holds the specific app state portion for your component instance
-2) `bindDucksActionCreator` - binds action creator for specific duck component instance
+* `ducksState` - this holds the specific app state portion for your component instance
+* `bindDucksActionCreator` - binds action creator for specific duck component instance
 
 ```javascript
 import { connectDucksView } from 'react-redux-ducks';
