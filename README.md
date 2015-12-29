@@ -2,6 +2,8 @@
 
 > React supplementary toolset for [redux-ducks](https://github.com/salsita/redux-ducks).
 
+**Don't use the package in production yet, it's just a proof of concept**
+
 **The package relies on [redux-ducks](https://github.com/salsita/redux-ducks)**
 
 Simple react binding which exposes high order component for connecting ducks reducers and app state portions with the view instance. The package exposes just single named function `connectDucksView`. The only function's argument is React component which will get Component's local app state portion in the global app state. Therefore it's allowed to have many instances of the Component in the view hierarchy. Every instance of the Component will keep its isolated state.
