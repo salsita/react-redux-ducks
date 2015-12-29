@@ -1,8 +1,19 @@
 {
   "name": "react-redux-ducks-example-counters",
   "version": "1.0.0",
+  "scripts": {
+    "start": "./node_modules/.bin/webpack-dev-server --port=3000 --content-base ./ --config ./webpack.config.js"
+  },
   "dependencies": {
+    "babel": "^5.8.23",
+    "babel-loader": "^5.4.0",
     "react-redux-ducks": "^0.1.0",
-    "redux-ducks": "^0.1.0"
+    "redux-ducks": "^0.1.0",
+    "react": "^0.14.3",
+    "react-dom": "^0.14.3",
+    "react-redux": "^4.0.6",
+    "redux": "^3.0.5",
+    "webpack": "^1.12.9",
+    "webpack-dev-server": "^1.14.0"
   }
 }
