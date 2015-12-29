@@ -1,0 +1,8 @@
+{
+  "name": "react-redux-ducks-example-counters",
+  "version": "1.0.0",
+  "dependencies": {
+    "react-redux-ducks": "^0.1.0",
+    "redux-ducks": "^0.1.0"
+  }
+}
