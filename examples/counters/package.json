@@ -7,8 +7,8 @@
   "dependencies": {
     "babel": "^5.8.23",
     "babel-loader": "^5.4.0",
-    "react-redux-ducks": "^0.2.0",
-    "redux-ducks": "^0.1.0",
+    "react-redux-ducks": "^0.1.2",
+    "redux-ducks": "^0.2.0",
     "react": "^0.14.3",
     "react-dom": "^0.14.3",
     "react-redux": "^4.0.6",
