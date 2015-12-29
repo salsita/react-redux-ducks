@@ -1,6 +1,6 @@
 import React, { Component, PropTypes } from 'react';
 import { connect } from 'react-redux';
-import { bindDucksActionCreator, unmountDucksState } from 'redux-ducks';
+import { bindDucksActionCreator, mountDucksState, unmountDucksState } from 'redux-ducks';
 
 const getRandomString = () => Math.random().toString(36).substring(7);
 
@@ -15,6 +15,8 @@ const connectDucksView = Embeddable => connect(appState => ({ducks: appState.duc
     this.setState({
       duckId: getRandomString()
     });
+
+    this.props.dispatch(mountDucksState(this.state.duckId));
   }
 
   componentWillUnmount() {

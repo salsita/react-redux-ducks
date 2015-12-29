@@ -48,6 +48,6 @@
   "peerDependencies": {
     "react": "^0.14.2",
     "react-redux": "^4.0.0",
-    "redux-ducks": "^0.1.0"
+    "redux-ducks": "^0.2.0"
   }
 }
