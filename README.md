@@ -8,9 +8,9 @@
 
 The example demonstrates independent isolated state and action handling per ducks view component instance
 
-![counters](http://www.gfycat.com/SevereVigilantAfricanporcupine)
+![counters](https://zippy.gfycat.com/SevereVigilantAfricanporcupine.gif)
 
-To run counter example:
+To run counters example:
 
 ```
   cd examples/counters
