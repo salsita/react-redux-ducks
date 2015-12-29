@@ -12,11 +12,10 @@ const connectDucksView = Embeddable => connect(appState => ({ducks: appState.duc
   }
 
   componentWillMount() {
-    this.setState({
-      duckId: getRandomString()
-    });
+    const duckId = getRandomString();
+    this.setState({duckId});
 
-    this.props.dispatch(mountDucksState(this.state.duckId));
+    this.props.dispatch(mountDucksState(duckId));
   }
 
   componentWillUnmount() {
